@@ -1,0 +1,18 @@
+<span id="searchform" method="post" action="/search/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." size="12.5" />
+    </div>
+```javascript
+<script>
+    var fn_search_txt = function(){
+        var searchTxt = document.getElementById("search-box").value;
+        window.location = "/search.html?query=" + searchTxt;
+    }
+</script>
+</span>

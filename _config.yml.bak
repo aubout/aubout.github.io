@@ -21,7 +21,7 @@
 title: Wooseok Kim
 email: wsykk5834@snu.ac.kr
 description: >- # this means to ignore newlines until "baseurl:"
-  I am a PhD student at Seoul National University, who am studying ancient philosophy, especially Plato and Aristotle, also with research interests in logic, epistemology, and metaphysics.
+  I am a PhD student at Seoul National University, who am studying ancient philosophy, especially Plato and Aristotle, also with interests in logic, epistemology, and metaphysics.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://aubout.gitgub.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
@@ -62,3 +62,4 @@ exclude:
   - vendor/ruby/
   - "*.md.bak"
   - _posts/2021-07-15-welcome-to-jekyll.markdown
+  - cv.pdf

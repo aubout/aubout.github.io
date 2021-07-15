@@ -4,12 +4,7 @@
 
 @import "minima";
 body {
+  line-height: 2;
   font-family: 'Fira Sans', 'Noto Sans KR', sans-serif;
   }
-.page-content {
-  min-height: calc(100vh - 70px);
-}
-.site-footer {
-  height: 50px;
-}
 blockquote { font-style: normal; }
