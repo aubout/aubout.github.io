@@ -28,5 +28,9 @@
     {%- endif -%}
   </div>
   
-  <link rel="stylesheet" href="/path/to/folder/css/academicons.min.css"/>
+  {% if post.excerpt != post.content %}
+    <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+{% endif %}
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 </header>
