@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aubout.github.io/apt-deal-info/sitemap.xml
+Sitemap: https://aubout.github.io/sitemap.xml
