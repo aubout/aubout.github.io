@@ -18,9 +18,9 @@ permalink: /misc./
         </h3>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
-          {% if post.excerpt != post.content %}
-            <a href="{{site_url}}{{post.url}}">Read more</a>
-          {% endif %}
+          <!-- {% if post.excerpt != post.content %}
+            <a href="{{site_url}}{{post.url}}">[...]</a>
+          {% endif %} -->
         {%- endif -%}
       </li>
       {%- endfor -%}

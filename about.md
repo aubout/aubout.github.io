@@ -5,6 +5,7 @@
 title: "About"
 layout: myhome
 order: 1
+permalink: /
 ---
 <span style="font-size:larger;">I am a PhD student at Seoul National University. My advisor is [Prof. Sung-Hoon Kang](https://humanities.snu.ac.kr/en/faculty?deptidx=13&md=view&profidx=157).</span>
 
@@ -12,6 +13,6 @@ order: 1
 
 <span style="font-size:larger;">I hold a Bachelor's degree in Economics and Philosophy and a Master's degree in Western Philosophy, both degrees from Seoul National University. My Master's project was on the _Theaetetus_ of Plato, resulting in the thesis titled "A Study on the Self-Refutation of Relativism in the _Theaetetus_ of Plato" (in Korean). I am now working on the _Timeus_ of Plato.</span>
 
-<span style="font-size:larger;">You can find my CV [here](/cv.pdf).</span>
+<span style="font-size:larger;">You can find my CV [here](cv.pdf).</span>
 
 <span style="font-size:larger;">You can contact me by email: <wsykk5834@snu.ac.kr>.</span>

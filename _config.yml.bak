@@ -29,11 +29,10 @@ github_username:
 philpeople_username: wooseok-kim
 
 header_pages:
- - about.md
  - misc.html
- - cv.pdf
+ #CV
 
-show_excerpts: true
+show_excerpts: false
 
 # Build settings
 theme: minima
@@ -62,4 +61,4 @@ exclude:
   - vendor/ruby/
   - "*.md.bak"
   - _posts/2021-07-15-welcome-to-jekyll.markdown
-  - discard
+  - discard/

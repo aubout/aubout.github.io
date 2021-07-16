@@ -5,5 +5,13 @@
 @import "minima";
 body {
   font-family: 'Fira Sans', 'Noto Sans KR', sans-serif;
+  line-height: 1.8;
+  counter-reset: blockquote;
   }
-blockquote { font-style: normal; }
+blockquote { font-style: normal; font-size: 16px; padding-left: 30px; padding-right: 30px; color: #111; border-left: 0px; }
+
+blockquote:before {
+  position: absolute;
+  content: "T"counter(blockquote);
+  counter-increment: blockquote; 
+  margin-left: -30px;}

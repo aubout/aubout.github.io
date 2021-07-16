@@ -33,10 +33,6 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
-  
-  {% if post.excerpt != post.content %}
-    <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
-  {% endif %}
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
