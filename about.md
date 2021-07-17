@@ -11,8 +11,9 @@ permalink: /
 
 <span style="font-size:larger;">My research focuses on ancient philosophy, especially Plato and Aristotle. I also have research interests in logic, epistemology, and metaphysics.</span>
 
-<span style="font-size:larger;">I hold a Bachelor's degree in Economics and Philosophy and a Master's degree in Western Philosophy, both degrees from Seoul National University. My Master's project was on the _Theaetetus_ of Plato, resulting in the thesis titled "A Study on the Self-Refutation of Relativism in the _Theaetetus_ of Plato" (in Korean). I am now working on the _Timeus_ of Plato.</span>
+<span style="font-size:larger;">I hold a Bachelor's degree in Economics and Philosophy and a Master's degree in Western Philosophy, both degrees from Seoul National University. My Master's project was on the _Theaetetus_ of Plato, resulting in the thesis entitled "A Study on the Self-Refutation of Relativism in the _Theaetetus_ of Plato" (in Korean). I am now working on the _Timeus_ of Plato.</span>
 
-<span style="font-size:larger;">You can find my CV [here](cv.pdf).</span>
+<span style="font-size:larger;">You can find my CV [here](cv.pdf). You can contact me by email: <wsykk5834@snu.ac.kr>.</span>
 
-<span style="font-size:larger;">You can contact me by email: <wsykk5834@snu.ac.kr>.</span>
+<span style="font-size:larger;"> Ps. "\[A\]ubout" refers to *Voyage au bout de la nuit* by Louis-Ferdinand Céline, a quote from which opens the film *La Grande Bellezza* by Paolo Sorrentino:</span>
+><span style="font-size:larger;">Voyager, c'est bien utile, ça fait travailler l'imagination. Tout le reste n'est que déception et fatigues. Notre voyage à nous est entièrement imaginaire. Voilà sa force.</span>

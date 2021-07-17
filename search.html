@@ -9,9 +9,9 @@ exclude_from_search: true
 <!-- <form action="/search" method="get" hidden="hidden">
   <input type="text" id="search-box" name="query" size="10" placeholder="Search" autocomplete="off">
 </form> -->
-<form class="tipue_search_right" action="/search" hidden="hidden">
-     <input type="text" name="q" id="tipue_search_input" pattern=".{1,}" title="At least 1 characters" required autocomplete="off" placeholder="Search">
- </form>
+<form class="tipue_search_right" action="/search">
+     <input type="text" name="q" id="tipue_search_input" pattern=".{1,}" autocomplete="off" placeholder="Search" style="clear: both;">
+</form>
 
 <div id="tipue_search_content"></div>
 
@@ -25,5 +25,7 @@ $(document).ready(function() {
   });
 });
 </script>
-
-
+<!-- <script>
+$document.getElementById("Search").reset()
+</script>
+ -->

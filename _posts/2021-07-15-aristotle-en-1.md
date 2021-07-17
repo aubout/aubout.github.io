@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_origtext
 title:  "Aristoteles, Ethica nicomachea 9.9 (1)"
 date:   2021-07-15 20:50:00 +0900
 categories: origtext
