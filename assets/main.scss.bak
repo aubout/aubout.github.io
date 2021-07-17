@@ -4,20 +4,7 @@
 
 @import "minima";
 body {
-  font-family: 'Fira Sans', 'Noto Sans KR', sans-serif;
+  font-family: 'Roboto', 'Fira Sans', 'Noto Sans KR', sans-serif;
   line-height: 1.8;
   }
 blockquote { font-style: normal; font-size: 16px; padding-left: 30px; padding-right: 30px; color: #111; border-left: 0px; }
-
-origquote { font-style: normal; font-size: 16px; padding-left: 30px; padding-right: 30px; color: #111; border-left: 0px; 
-  letter-spacing: -1px; display: block; margin-top: 1em;
-  margin-bottom: 1em; }
-
-origquote > :last-child { margin-bottom: 0; }
-
-origquote:before {
-  position: absolute;
-  content: "T"counter(origquote);
-  counter-increment: origquote; 
-  margin-left: -30px;}
-  

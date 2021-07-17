@@ -63,3 +63,12 @@ exclude:
   - "*.md.bak"
   - _posts/2021-07-15-welcome-to-jekyll.markdown
   - discard/
+  
+tipue_search:
+     include:
+         pages: false
+         collections: []
+     exclude:
+         files: [search.html, index.html, tags.html]
+         categories: []
+         tags: []

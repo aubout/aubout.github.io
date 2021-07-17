@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 日常茶飯事
+title: Misc.
 permalink: /misc./
 ---
 
@@ -17,10 +17,7 @@ permalink: /misc./
           </a>
         </h3>
         {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-          <!-- {% if post.excerpt != post.content %}
-            <a href="{{site_url}}{{post.url}}">[...]</a>
-          {% endif %} -->
+          {{ post.excerpt | strip_html | strip_newlines | strip | truncatewords:50, " ..."}}
         {%- endif -%}
       </li>
       {%- endfor -%}
