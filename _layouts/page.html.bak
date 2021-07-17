@@ -7,6 +7,10 @@ layout: default
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
     
+  <style>
+  {% if page.categories == "origtext" %} {% include assets/origtext.css %} {% endif %}
+  </style>
+  
   <div class="post-content">
     {{ content }}
   </div>

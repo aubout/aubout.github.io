@@ -32,7 +32,7 @@ header_pages:
  - misc.html
  #CV
 
-show_excerpts: true
+show_excerpts: false
 
 # Build settings
 theme: minima

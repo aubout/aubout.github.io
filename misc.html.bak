@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Miscellaneous
+title: 記錄
 permalink: /misc./
 ---
 
@@ -17,10 +17,10 @@ permalink: /misc./
           </a>
         </h3>
         {%- if site.show_excerpts -%}
-          {{ post.excerpt }}&nbsp;
-          {% if post.excerpt != post.content %}
+          {{ post.excerpt }}
+          <!-- {% if post.excerpt != post.content %}
             <a href="{{site_url}}{{post.url}}">[...]</a>
-          {% endif %}
+          {% endif %} -->
         {%- endif -%}
       </li>
       {%- endfor -%}
