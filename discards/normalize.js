@@ -1,0 +1,7 @@
+function normalizeGreek(text) {
+    return text.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+}
+
+function normalizePolytonicGreek(text) {
+    return text.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+}

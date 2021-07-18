@@ -9,8 +9,8 @@ exclude_from_search: true
 <!-- <form action="/search" method="get" hidden="hidden">
   <input type="text" id="search-box" name="query" size="10" placeholder="Search" autocomplete="off">
 </form> -->
-<form class="tipue_search_right" action="/search">
-     <input type="text" name="q" id="tipue_search_input" pattern=".{1,}" autocomplete="off" placeholder="Search" style="clear: both;">
+<form class="tipue_search_right">
+     <input type="text" name="q" id="tipue_search_input" pattern=".{1,}" autocomplete="off", placeholder="Search" autofocus="autofocus">
 </form>
 
 <div id="tipue_search_content"></div>
@@ -21,11 +21,12 @@ $(document).ready(function() {
     'wholeWords' : false,
     'showTime' : true,
     'minimumLength' : 1,
-    'showURL' : false
+    'showURL' : false,
+    'allterms' : false,
+    'highlightTerms': true,
+    'showTitleCount': true,
+    'showURL': true,
+    'showContext': true,
   });
 });
 </script>
-<!-- <script>
-$document.getElementById("Search").reset()
-</script>
- -->

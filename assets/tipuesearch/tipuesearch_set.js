@@ -32,7 +32,6 @@ var tipuesearch_weight = {'weight': [
      {'url': 'http://www.tipue.com/is', 'score': 10}
 ]};
 
-
 // Illogical stemming
 
 var tipuesearch_stem = {'words': [
@@ -41,13 +40,14 @@ var tipuesearch_stem = {'words': [
      {'word': 'javascript', 'stem': 'js'}
 ]};
 
+/* var tipuesearch_stem = searchString.normalize('NFD'); */
 
 // Related searches
 
 var tipuesearch_related = {'searches': [
-     {'search': 'tipue', 'related': 'Tipue Search'},
      {'search': 'tipue', 'before': 'Tipue Search', 'related': 'Getting Started'},
      {'search': 'tipue', 'before': 'Tipue', 'related': 'jQuery'},
+     {'search': 'tipue', 'before': 'Tipue', 'related': 'Blog'},
      {'search': 'tipue', 'before': 'Tipue', 'related': 'Blog'}
 ]};
 

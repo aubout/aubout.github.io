@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://aubout.gitgub.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
-github_username: 
+github_username: aubout
 philpeople_username: wooseok-kim
 
 header_pages:
@@ -40,6 +40,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-algolia
 
 # Exclude from processing.
 # The following items will not be processed, by default.

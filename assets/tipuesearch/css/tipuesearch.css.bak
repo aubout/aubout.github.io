@@ -16,7 +16,7 @@ http://www.tipue.com/search
 }
 #tipue_search_results_count, #tipue_search_warning, .tipue_search_content_url, .tipue_search_content_debug, .tipue_search_related_text
 {
-     font: 400 14px/1.7 'Fira Sans', 'Noto Sans KR', sans-serif;
+     font: 300 14px/1.7 'Fira Sans', 'Noto Sans KR', sans-serif;
 }
 .tipue_search_content_title
 {
@@ -24,11 +24,12 @@ http://www.tipue.com/search
 }
 .tipue_search_content_text, .tipue_search_related_title
 {
-     font: 400 15px/1.7 'Fira Sans', 'Noto Sans KR', sans-serif;
+     font: 300 15px/1.7 'Fira Sans', 'Noto Sans KR', sans-serif;
 }
 .tipue_search_content_bold, .tipue_search_related_bold
 {
-     font-weight: 500;
+     font-weight: 300;
+     background-color: yellow;
 }
 
 

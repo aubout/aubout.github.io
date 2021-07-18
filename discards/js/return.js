@@ -1,0 +1,24 @@
+function getCaretPosition() {
+    var txt = document.getElementById("tipue_search_input");
+    var startPos = txt.selectionStart;
+    var endPos = txt.selectionEnd;
+    return endPos;
+};
+function setCaretPosition() {
+	var txt = document.getElementById("tipue_search_input");
+  var caretPos = parseInt(document.getElementById("tipue_search_input2").value);
+	if(txt.createTextRange) {
+  	var range = txt.createTextRange();
+    range.collapse(true);
+    range.moveEnd('character', caretPos);
+    range.moveStart('character', caretPos);
+    range.select();
+    return;
+  }
+  
+  if(txt.selectionStart) {
+    txt.focus();
+    txt.setSelectionRange(caretPos, caretPos);
+  }
+};
+$("tipue_search_input").focus();

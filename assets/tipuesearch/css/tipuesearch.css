@@ -28,7 +28,8 @@ http://www.tipue.com/search
 }
 .tipue_search_content_bold, .tipue_search_related_bold
 {
-     font-weight: 500;
+     font-weight: 400;
+     background-color: yellow;
 }
 
 

@@ -13,5 +13,5 @@ categories: origtext
 아리스토텔레스의 <ins>니코마코스 윤리학</ins>(*Ethica nicomachea*; *EN*)의 그리스어 텍스트로는 바이워터(Bywater 1894)의 OCT(Oxford Classical Texts)판과 주제밀(Susemihl 1903)의 토이브너(Teubner)판을 참고하라. 바이워터의 텍스트 편집과 관련해서는 바이워터(Bywater 1892) 자신의 설명을 참고하라. T1과 T2의 수직선(\|)은 바이워터(Bywater 1894)의 행갈음을 표시한다.
 
 - Bywater, I. (1892). *Contributions to Textual Criticism of Aristotle's Nicomachean Ethics*. Oxford: Clarendon Press.
-- — ed. (1894). *Ethica Nicomachea*, by Aristoteles. Oxford: Clarendon Press.
+- — ed. (1894). *Ethica Nicomachea*, by Áristoteles. Oxford: Clarendon Press.
 - Susemihl, F., Hrsg. (1903). *Ethica nicomachea*, von Aristoteles, 2. Aufl., überarb. von O. Apelt. Leibzig: Teubner.

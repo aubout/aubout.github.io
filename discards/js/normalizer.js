@@ -1,0 +1,23 @@
+// Strips diacritics from a string
+// Example: removeDiacritics('ï') -> 'i'
+const removeDiacritics = str => {
+  return str
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+}
+
+// Determines if a haystack contains a needle.  Case and accent insensitive.
+// Example: normalizedContains('Le Samouraï', 'I') -> true
+const normalizedContains = (haystack, needle) => {
+  const regExp = new RegExp(removeDiacritics(needle), 'gi');
+  return regExp.test(removeDiacritics(haystack));
+}
+
+// Returns all films matching the input string.  Case and accent insensitive.
+const findinsensitive = (strToMatch, dataset) => {
+  return dataset.filter(input => normalizedContains(input, strToMatch))
+}
+
+const alldata = tipuesearch
+
+console.log(findinsensitive('samourai', alldata));

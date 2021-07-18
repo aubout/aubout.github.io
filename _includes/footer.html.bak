@@ -19,15 +19,17 @@
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
         </ul>
-        {%- include social.html -%}
       </div>
 
       <div class="footer-col footer-col-2">
+      {%- include social.html -%}
       </div>
 
       <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
         {% include search-form.html %}
+        <p><script async src="https://cse.google.com/cse.js?cx=9aa7c0eb84d44b5b4"></script></p>
+<div class="gcse-search"></div>
       </div>
     </div>
 
