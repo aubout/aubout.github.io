@@ -235,7 +235,7 @@ http://www.tipue.com/search
                                              var m_c = tipuesearch_in.pages[i].text.match(pat).length;
                                              score += (20 * m_c);
                                         }
-                                        if (tipuesearch_in.pages[i].text.normalize("NFD").replace(/[\u0300-\u036f]/g, '').search(pat) != -1)
+                                        else if (tipuesearch_in.pages[i].text.normalize("NFD").replace(/[\u0300-\u036f]/g, '').search(pat) != -1)
                                         {
                                              var m_c = tipuesearch_in.pages[i].text.normalize("NFD").replace(/[\u0300-\u036f]/g, '').match(pat).length;
                                              score += (20 * m_c);
@@ -303,7 +303,7 @@ http://www.tipue.com/search
                                         var m_c = tipuesearch_in.pages[i].text.match(pat).length;
                                         score += (20 * m_c);
                                    }
-                                   if (tipuesearch_in.pages[i].text.normalize("NFD").replace(/[\u0300-\u036f]/g, '').search(pat) != -1)
+                                   else if (tipuesearch_in.pages[i].text.normalize("NFD").replace(/[\u0300-\u036f]/g, '').search(pat) != -1)
                                    {
                                         var m_c = tipuesearch_in.pages[i].text.normalize("NFD").replace(/[\u0300-\u036f]/g, '').match(pat).length;
                                         score += (20 * m_c);
@@ -408,23 +408,9 @@ http://www.tipue.com/search
                                                   d_w = d.split(' ');
                                                   if (d_w[0].normalize("NFD").replace(/[\u0300-\u036f]/g, '').normalize("NFC") == d_w[0])
                                                   {
-                                                       if (/[가-힣]/.test(d_w[0]))
+                                                       if (/[a-zA-ZΑ-Ωα-ω]/.test(d_w[0]))
                                                        {
-                                                            var s_1 = found[i].desc.indexOf(d_w[0]);
-                                                            if (s_1 > set.contextStart)
-                                                            {
-                                                                 var t_1 = t.substr(s_1 - set.contextBuffer);
-                                                                 var s_2 = t_1.indexOf(' ');
-                                                                 t_1 = t.substr(s_1 - set.contextBuffer + s_2);
-                                                                 t_1 = $.trim(t_1);
-                                                                 if (t_1.length > set.contextLength)
-                                                                 {
-                                                                      t = '... ' + t_1;
-                                                                 }
-                                                            }
-                                                       }
-                                                       if (/[a-zA-Z0-9Α-Ωα-ω]/.test(d_w[0]))
-                                                       {
+                                                            // var lemma = d_w[0].match(/[a-zA-ZΑ-Ωα-ω]/);
                                                             var s_1 = found[i].desc.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, '').normalize("NFC").indexOf(d_w[0]);
                                                             if (s_1 > set.contextStart)
                                                             {
@@ -437,10 +423,28 @@ http://www.tipue.com/search
                                                                  }
                                                             }
                                                        }
+                                                       else
+                                                       {
+                                                            // var lemma = d_w[0].match(/[가-힣0-9]/);
+                                                            var s_1 = found[i].desc.indexOf(d_w[0]);
+                                                            if (s_1 > set.contextStart)
+                                                            {
+                                                                 var t_1 = t.substr(s_1 - set.contextBuffer);
+                                                                 var s_2 = t_1.indexOf(' ');
+                                                                 t_1 = t.substr(s_1 - set.contextBuffer + s_2);
+                                                                 t_1 = $.trim(t_1);
+                                                                 if (t_1.length > set.contextLength)
+                                                                 {
+                                                                      t = '... ' + t_1;
+                                                                 }
+                                                            }
+                                                       
+                                                            }
                                                   }
-                                                  if (d_w[0].normalize("NFD").replace(/[\u0300-\u036f]/g, '').normalize("NFC") != d_w[0])
+                                                  else // if (d_w[0].normalize("NFD").replace(/[\u0300-\u036f]/g, '').normalize("NFC") != d_w[0])
                                                   {
-                                                       var s_1 = found[i].desc.toLowerCase().indexOf(d_w[0]);
+                                                       // var lemma = d_w[0].match(/[^-!$%^&*()_+|~=`{}[:;<>?,.@#\]/g);
+                                                       var s_1 = found[i].desc.toLowerCase().indexOf(lemma);
                                                        if (s_1 > set.contextStart) {
                                                             var t_1 = t.substr(s_1 - set.contextBuffer);
                                                             var s_2 = t_1.indexOf(' ');
@@ -464,19 +468,22 @@ http://www.tipue.com/search
                                                        {
                                                            if (d_w[f] != d_w[f].normalize("NFD").replace(/[\u0300-\u036f]/g, '').normalize("NFC"))
                                                            {
-                                                               var patr = new RegExp('(' + d_w[f] + ')', 'gi');
-                                                               t = t.replace(patr, "<h0011>$1<h0012>");}
-                                                               md_f = [];
-                                                  let index = t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, '').normalize("NFC").indexOf(d_w[f]); 
-                                                  while (index != -1) 
-                                                  { md_f.push(index);
-                                                    index = t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, '').normalize("NFC").indexOf(d_w[f], index + 1); };
-                                                    d_f = md_f.map(x => t.substr(x,d_w[f].length));
-                                                    for (var l = 0; l < d_f.length; l++)
-                                                    {
-                                                        var patr = new RegExp('(' + d_f[l] + ')', 'gi');
-                                                        t = t.replace(patr, "<h0011>"+d_f[l]+"<h0012>");
-                                                    }
+                                                                var patr = new RegExp('(' + d_w[f] + ')', 'gi');
+                                                                t = t.replace(patr, "<h0011>$1<h0012>");
+                                                           }
+                                                           else {
+                                                                md_f = [];
+                                                                let index = t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, '').normalize("NFC").indexOf(d_w[f]);
+                                                                while (index != -1) {
+                                                                     md_f.push(index);
+                                                                     index = t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, '').normalize("NFC").indexOf(d_w[f], index + 1);
+                                                                };
+                                                                d_f = md_f.map(x => t.substr(x, d_w[f].length));
+                                                                for (var l = 0; l < d_f.length; l++) {
+                                                                     var patr = new RegExp('(' + d_f[l] + ')', 'gi');
+                                                                     t = t.replace(patr, "<h0011>" + d_f[l] + "<h0012>");
+                                                                }
+                                                           }
                                                        }
                                                   }
                                              }
@@ -617,7 +624,7 @@ http://www.tipue.com/search
                     {
                          if (show_stop)
                          {
-                              out += '<div id="tipue_search_warning">' + tipuesearch_string_8 + tipuesearch_string_9 + '</div>';     
+                              out += '<div id="tipue_search_warning">' + tipuesearch_string_8 + + tipuesearch_string_9 + '</div>';     
                          }
                          else
                          {
