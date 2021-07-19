@@ -7,9 +7,9 @@ tipue_search_active: true
 exclude_from_search: true
 ---
 <form class="tipue_search_right" action="/search">
-  <input type="text" name="q" id="tipue_search_input" pattern=".{1,}" title="At least 1 characters" required autocomplete="off" placeholder="Search"size="20" autofocus="autofocus">
+  <input type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search" size="20" pattern=".{1,}" autofocus="autofocus">
 </form>
-
+<!-- pattern=".{2,}" title="At least 2 characters" required  -->
 <div id="tipue_search_content"></div>
 
 <script>
@@ -17,7 +17,7 @@ $(document).ready(function() {
   $('#tipue_search_input').tipuesearch({
     'wholeWords' : false,
     'showTime' : true,
-    'minimumLength' : 1,
+    'minimumLength' : 2,
     'showURL' : false,
     'allterms' : false,
     'highlightTerms': true,

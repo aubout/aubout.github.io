@@ -176,8 +176,14 @@ http://www.tipue.com/search
                     {
                          d = d.substring(1, d.length - 1);
                     }
-               
-                    if (d.length >= set.minimumLength)
+                    function getByte(str) {
+                         return str
+                           .split('') 
+                           .map(s => s.charCodeAt(0))
+                           .reduce((prev, c) => (prev + ((c === 10) ? 2 : ((c >> 7) ? 2 : 1))), 0);
+                       }
+                       
+                    if (d.length >= set.minimumLength || getByte(d) >= set.minimumLength)
                     {
                          if (standard)
                          {
