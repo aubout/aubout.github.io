@@ -15,7 +15,8 @@ exclude_from_search: true
 
 <script>
 $( "#tipue_search_content" ).ready(function() {
-  if(window.location !== "/?q=" + $( "#tipue_search_input" ).val()){
+  // if(document.URL !== "/?q=" + $( "#tipue_search_input" ).val()){
+    if(document.URL !== document.URL.search){
   $('#tipue_search_input').tipuesearch({
     'wholeWords' : false,
     'showTime' : true,

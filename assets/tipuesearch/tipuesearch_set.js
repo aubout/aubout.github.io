@@ -40,7 +40,7 @@ var tipuesearch_weight = {'weight': [
 // Illogical stemming
 
 var tipuesearch_stem = {'words': [
-     {'word': 'e-mail', 'stem': 'email'},
+     {'word': 'ἔστιν', 'stem': 'εἰμί'},
      {'word': 'javascript', 'stem': 'jquery'},
      {'word': 'javascript', 'stem': 'js'}
 ]};
@@ -48,7 +48,7 @@ var tipuesearch_stem = {'words': [
 // Related searches
 
 var tipuesearch_related = {'searches': [
-     {'search': 'agaqou', 'before': 'Tipue Search', 'related': 'αγαθου'},
+     {'search': 'ἔστιν', 'before': 'Tipue Search', 'related': 'εἰμί'},
      {'search': 'tipue', 'before': 'Tipue', 'related': 'jQuery'},
      {'search': 'tipue', 'before': 'Tipue', 'related': 'Blog'},
      {'search': 'tipue', 'before': 'Tipue', 'related': 'Blog'}

@@ -451,7 +451,7 @@ http://www.tipue.com/search
                                                   else // if (d_w[0].normalize("NFD").replace(/[\u0300-\u036f]/g, '').normalize("NFC") != d_w[0])
                                                   {
                                                        // var lemma = d_w[0].match(/[^-!$%^&*()_+|~=`{}[:;<>?,.@#\]/g);
-                                                       var s_1 = found[i].desc.toLowerCase().indexOf(lemma);
+                                                       var s_1 = found[i].desc.toLowerCase().indexOf(d_w[0]);
                                                        if (s_1 > set.contextStart) {
                                                             var t_1 = t.substr(s_1 - set.contextBuffer);
                                                             var s_2 = t_1.indexOf(' ');
