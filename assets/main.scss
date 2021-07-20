@@ -10,7 +10,7 @@ body {
 
 blockquote { 
   font-style: normal;
-  font-size: 16px; 
+  // font-size: 16px; 
   padding-left: 30px; 
   padding-right: 30px; 
   color: #111; 
@@ -21,3 +21,45 @@ blockquote {
 em {font-style: italic;}
 
 .highlight { background-color: #FFFF40; }
+
+form.tipue_search_right {
+  max-width: 210px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+form.tipue_search_right input#tipue_search_input {
+  padding: 8px;
+  background: none;
+  border: none;
+  // border-bottom: 1px solid #e3e3e3;
+  float: left;
+  color: #333;
+  padding-right: 30px;
+  border-radius: 5px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  }
+
+form.tipue_search_right input#tipue_search_input:focus {
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+  transition: box-shadow .333s ease;
+}
+
+form.tipue_search_right button {
+  position: absolute;
+  background: none;
+  border: none;
+  color: #e3e3e3;
+  right: 25px;
+  margin-top: 9px;
+  cursor: pointer;
+  // font-size: 12px;
+}
+
+/* Clear floats */
+form.tipue_search_right::after {
+  content: "";
+  clear: both;
+  display: table;
+}

@@ -176,6 +176,7 @@ http://www.tipue.com/search
                     {
                          d = d.substring(1, d.length - 1);
                     }
+
                     function getByte(str) {
                          return str
                            .split('') 
@@ -630,7 +631,7 @@ http://www.tipue.com/search
                     {
                          if (show_stop)
                          {
-                              out += '<div id="tipue_search_warning">' + tipuesearch_string_8 + + tipuesearch_string_9 + '</div>';     
+                              out += '<div id="tipue_search_warning">' + tipuesearch_string_8 + ' ' + tipuesearch_string_9 + '</div>';     
                          }
                          else
                          {

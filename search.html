@@ -6,16 +6,9 @@ permalink: /search/
 tipue_search_active: true
 exclude_from_search: true
 ---
-<script type="text/javascript">
-  function Enter_Check(){
-    if(event.keyCode == 13){
-      return;
-    }
-  }
-</script>
-
 <form class="tipue_search_right" action="/search" >
-  <input type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search" size="20" pattern=".{1,}" autofocus="autofocus" onkeydown="JavaScript:Enter_Check();">
+  <input type="search" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search" pattern=".{1,}", autofocus>  
+  <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
 </form>
 <!-- pattern=".{2,}" title="At least 2 characters" required  -->
 <div id="tipue_search_content"></div>
@@ -26,13 +19,11 @@ $(document).ready(function() {
     'wholeWords' : false,
     'showTime' : true,
     'minimumLength' : 2,
-    'showURL' : false,
-    'allterms' : false,
     'highlightTerms': true,
     'showTitleCount': true,
     'showURL': true,
     'showContext': true,
-    'showRelated': false,
+    'showRelated': true,
   });
 });
 </script>

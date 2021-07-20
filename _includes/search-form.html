@@ -2,14 +2,8 @@
 <!-- <form action="/search" method="get" style="display: inline;" >
   <input type="text" id="search-box" name="query" size="10" placeholder="Search" autocomplete="off">
 </form> -->
-<script type="text/javascript">
-  function Enter_Check(){
-    if(event.keyCode == 13){
-      return;
-    }
-  }
-</script>
 <form class="tipue_search_right" action="/search" >
-  <input type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search" size="20" pattern=".{1,}" autofocus="autofocus" onkeydown="JavaScript:Enter_Check();">
+  <input type="search" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search" pattern=".{1,}">
+  <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
 </form>
  <!--  title="At least 2 characters" required  -->
