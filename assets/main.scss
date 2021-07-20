@@ -44,6 +44,10 @@ form.tipue_search_right input#tipue_search_input {
 form.tipue_search_right input#tipue_search_input:focus {
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
   transition: box-shadow .333s ease;
+  -webkit-transition: box-shadow .333s ease;
+  -moz-transition: box-shadow .333s ease;
+  -ms-transition: box-shadow .333s ease;
+  -o-transition: box-shadow .333s ease;
 }
 
 form.tipue_search_right button {
