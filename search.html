@@ -6,9 +6,16 @@ permalink: /search/
 tipue_search_active: true
 exclude_from_search: true
 ---
+<script type="text/javascript">
+  function Enter_Check(){
+    if(event.keyCode == 13){
+      return;
+    }
+  }
+</script>
+
 <form class="tipue_search_right" action="/search" >
-  <input type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search" size="20" pattern=".{1,}" autofocus="autofocus">
-  <input type="button" id="tipue_search_button" onclick="this.form.submit();">
+  <input type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search" size="20" pattern=".{1,}" autofocus="autofocus" onkeydown="JavaScript:Enter_Check();">
 </form>
 <!-- pattern=".{2,}" title="At least 2 characters" required  -->
 <div id="tipue_search_content"></div>
