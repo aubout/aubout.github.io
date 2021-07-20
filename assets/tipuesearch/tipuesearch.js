@@ -121,13 +121,13 @@ http://www.tipue.com/search
                     getTipueSearch(0, true);
                }               
                
-               $(this).keyup(function(event)
-               {
-                    if(event.keyCode == '13')
-                    {
-                         getTipueSearch(0, true);
-                    }
-               });
+               // $(this).keyup(function(event)
+               // {
+               //      if(event.keyCode == '13')
+               //      {
+               //           getTipueSearch(0, true);
+               //      }
+               // });
                
 
                function getTipueSearch(start, replace)
