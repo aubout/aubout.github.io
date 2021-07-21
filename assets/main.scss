@@ -5,20 +5,36 @@
 @import "minima";
 body {
   font-family: 'Fira Sans', 'Noto Sans KR', sans-serif;
-  line-height: 1.8;
+  line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-character;
   }
+
+  .post-content h2 { 
+    font-size: 22px; 
+    font-weight: 700;
+  }
+  .post-content h3 { 
+    font-size: 19px;
+    font-weight: 700;
+   }
+  .post-content h4 { 
+    font-size: 16px;
+    font-weight: 700; }
 
 blockquote { 
   font-style: normal;
-  // font-size: 16px; 
+  font-size: 16px; 
   padding-left: 30px; 
   padding-right: 30px; 
   color: #111; 
-  border-left: 0px; 
-  letter-spacing: -.5px
+  border-left: 0; 
+  letter-spacing: 0;
   }
 
-em {font-style: italic;}
+em {
+  font-style: italic;
+}
 
 .highlight { background-color: #FFFF40; }
 

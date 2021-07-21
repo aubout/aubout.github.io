@@ -23,35 +23,35 @@ var tipuesearch_stop_words = [
 // Word replace
 
 var tipuesearch_replace = {'words': [
-     {'word': 'tip', 'replace_with': 'tipue'},
-     {'word': 'javscript', 'replace_with': 'javascript'},
-     {'word': 'jqeury', 'replace_with': 'jquery'}
+     // {'word': 'tip', 'replace_with': 'tipue'},
+     // {'word': 'javscript', 'replace_with': 'javascript'},
+     // {'word': 'jqeury', 'replace_with': 'jquery'}
 ]};
 
 
 // Weighting
 
 var tipuesearch_weight = {'weight': [
-     {'url': 'http://www.tipue.com', 'score': 20},
-     {'url': 'http://www.tipue.com/search', 'score': 30},
-     {'url': 'http://www.tipue.com/is', 'score': 10}
+     // {'url': 'http://www.tipue.com', 'score': 20},
+     // {'url': 'http://www.tipue.com/search', 'score': 30},
+     // {'url': 'http://www.tipue.com/is', 'score': 10}
 ]};
 
 // Illogical stemming
 
 var tipuesearch_stem = {'words': [
-     {'word': 'ἔστιν', 'stem': 'εἰμί'},
-     {'word': 'javascript', 'stem': 'jquery'},
-     {'word': 'javascript', 'stem': 'js'}
+     // {'word': 'ἔστιν', 'stem': 'εἰμί'},
+     // {'word': 'javascript', 'stem': 'jquery'},
+     // {'word': 'javascript', 'stem': 'js'}
 ]};
 
 // Related searches
 
 var tipuesearch_related = {'searches': [
-     {'search': 'ἔστιν', 'before': 'Tipue Search', 'related': 'εἰμί'},
-     {'search': 'tipue', 'before': 'Tipue', 'related': 'jQuery'},
-     {'search': 'tipue', 'before': 'Tipue', 'related': 'Blog'},
-     {'search': 'tipue', 'before': 'Tipue', 'related': 'Blog'}
+     // {'search': 'ἔστιν', 'before': 'Tipue Search', 'related': 'εἰμί'},
+     // {'search': 'tipue', 'before': 'Tipue', 'related': 'jQuery'},
+     // {'search': 'tipue', 'before': 'Tipue', 'related': 'Blog'},
+     // {'search': 'tipue', 'before': 'Tipue', 'related': 'Blog'}
 ]};
 
 

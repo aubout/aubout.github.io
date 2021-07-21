@@ -6,7 +6,7 @@ body {
 
 blockquote:before {
   position: absolute;
-  content: "T"counter(blockquote);
+  content: "T"counter(blockquote)".";
   counter-increment: blockquote; 
-  margin-left: -30px;}
+  margin-left: -25px;}
   
