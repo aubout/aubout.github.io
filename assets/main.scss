@@ -3,11 +3,26 @@
 ---
 
 @import "minima";
+
 body {
   font-family: 'Fira Sans', 'Noto Sans KR', sans-serif;
   line-height: 1.6;
   // text-align: justify;
   // text-justify: inter-character;
+  }
+
+  pre, code {
+    font-family: 'Cousine', monospace;
+  }  
+
+  pre { padding: 0px }
+
+  pre code.hljs {
+    display: block;
+  }
+  
+  code.hljs {
+    display: inline;
   }
 
   .post-content h2 { 
