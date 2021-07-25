@@ -11,9 +11,11 @@ date: 2021-07-26 02:53 +0900
 
 <pre><code class="cmd">wsl --shutdown</code></pre>
 
-WSL을 재시작하려면, <code class="cmd">wsl</code>.
+그리고 WSL을 재시작한다: <code class="cmd">wsl</code>.
 
-내 생각에 증상의 원인은 윈도우10의 빠른시작(Fast Startup)과 관련된 것 같다. 윈도우 재시작 시 WSL이 제대로 초기화되지 않는다는 증상이 보고되어 있다: <a href="https://github.com/microsoft/WSL/issues/6244" style="font-family: 'Cousine'; font-size: 15px;">https://github.com/microsoft/WSL/issues/6244</a>. 그러므로 빠른시작을 해제하면 증상은 없앨 수 있다:
+해당 이슈에서는 언급되지 않았으나, 내 생각에 증상의 원인은 윈도우10의 빠른시작(Fast Startup)과 관련된 것 같다. 윈도우 재시작 시 WSL이 제대로 초기화되지 않는다는 증상이 보고되어 있다: <a href="https://github.com/microsoft/WSL/issues/6244" style="font-family: 'Cousine'; font-size: 15px;">https://github.com/microsoft/WSL/issues/6244</a>. 실제로 빠른시작을 해제하면 증상은 없앨 수 있다.
+
+빠른시작을 해제하려면 최대절전모드를 해제하면 된다:
 
 <pre><code class="cmd">powercfg -h off</code></pre>
 
