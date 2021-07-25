@@ -7,6 +7,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
+
 gem "jekyll", "~> 4.2.0"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.5"
@@ -28,6 +29,7 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
-gem "webrick", "~> 1.7"
+# Compatibility issue with Ruby 3
+gem "webrick", "~> 1.7" 
 
-gem 'jekyll-sitemap'
+gem "jekyll-sitemap"
