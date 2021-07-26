@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+  {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   
   {%- feed_meta -%}
@@ -26,19 +26,18 @@
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/styles/arduino-light.min.css">
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.8.0/highlightjs-line-numbers.min.js"></script>
-
-  <script>hljs.initHighlightingOnLoad();</script>
-  <script>hljs.initLineNumbersOnLoad();</script>
+  <!-- cmd -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/dos.min.js"></script>
+  <script>hljs.highlightAll(); hljs.initLineNumbersOnLoad();</script>
 
   <!-- MathJax -->
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-  <!-- jquery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
   <!-- tipuesearch -->
   <link rel="stylesheet" href="/assets/tipuesearch/tipuesearch.css">
+   <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="/assets/tipuesearch/tipuesearch_content.js"></script>
   <script src="/assets/tipuesearch/tipuesearch_set.js"></script>
   <script src="/assets/tipuesearch/tipuesearch.js"></script>
