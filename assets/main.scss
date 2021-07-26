@@ -15,15 +15,12 @@ body {
     font-family: 'Cousine', monospace;
   }  
 
-  pre { padding: 0px }
+  pre { padding: 0px; }
+  table { margin-bottom: 0px; }
 
-  pre code.hljs {
-    display: block;
-  }
-  
-  code.hljs {
-    display: inline;
-  }
+  // code.hljs {
+  //   display: inline;
+  // }
 
   .post-content h2 { 
     font-size: 22px; 
