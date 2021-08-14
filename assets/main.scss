@@ -9,13 +9,6 @@ body {
   line-height: 1.6;
   }
 
-  pre, code {
-    font-family: 'Cousine', monospace;
-  }  
-
-  pre { padding: 0px; }
-  table { margin-bottom: 0px; }
-
   .post-content h2 { 
     font-size: 22px; 
     font-weight: 700;
@@ -23,14 +16,21 @@ body {
   .post-content h3 { 
     font-size: 19px;
     font-weight: 700;
-   }
-  .post-list h3 { 
-    font-size: 19px;
-    font-weight: 500;
   }
   .post-content h4 { 
     font-size: 16px;
-    font-weight: 700; }
+    font-weight: 700;
+  }
+  .post-list h3 { 
+    font-size: 19px;
+  }
+
+  pre, code {
+    font-family: 'Cousine', monospace;
+  }  
+
+  pre { padding: 0px; }
+  table { margin-bottom: 0px; }
 
 blockquote { 
   font-style: normal;
@@ -93,3 +93,5 @@ form.tipue_search_right::after {
   clear: both;
   display: table;
 }
+
+img[alt=Me] { width: 500px; height: auto; border-radius: 5px;}
