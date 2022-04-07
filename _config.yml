@@ -19,17 +19,17 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Wooseok Kim
-email: wsykk5834@snu.ac.kr
+email: wk2377@columbia.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  I am a PhD student at Seoul National University, who am studying ancient philosophy, especially Plato and Aristotle, also with interests in logic, epistemology, and metaphysics.
+  I am an incoming PhD student to the Classical Studies Graduate Program at Columbia University. I am studying ancient philosophy, especially Plato and Aristotle, also with secondary interests in logic, epistemology, and metaphysics.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://aubout.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://wseok-kim.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
-github_username: aubout
+github_username: wseok-kim
 philpeople_username: wooseok-kim
 
 header_pages:
- - misc.html
+#  - misc.html
  #CV
 
 show_excerpts: true
