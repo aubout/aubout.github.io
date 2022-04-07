@@ -30,7 +30,7 @@ philpeople_username: wooseok-kim
 
 # header_pages: 
  - about.md
- - CV.pdf
+ - CV
 
 show_excerpts: true
 
