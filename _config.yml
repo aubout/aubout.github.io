@@ -29,7 +29,7 @@ github_username: wseok-kim
 philpeople_username: wooseok-kim
 
 header_pages: 
- - about.md
+#  - about.md
  - cv.pdf
 
 show_excerpts: true
