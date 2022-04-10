@@ -7,7 +7,6 @@ layout: myhome
 order: 1
 permalink: /research/
 ---
-
 ![Way](/IMG_1464.JPG)
 
 ## Publications
