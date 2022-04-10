@@ -5,7 +5,7 @@
 title: "CV"
 layout: myhome
 order: 1
-permalink: /cv/
+permalink: /cv.pdf
 ---
 
 You can find my CV [here](cv.pdf).
