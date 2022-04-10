@@ -9,5 +9,5 @@ permalink: /research/
 ---
 
 ## Publications
- - “The Commons and Self-Identity: _Theaetetus_ 184–186” (in Korean), _The Journal of Greco-Roman Studies_ 60.2 (2021), 107–136,
+ 1. “The Commons and Self-Identity: _Theaetetus_ 184–186” (in Korean), _The Journal of Greco-Roman Studies_ 60.2 (2021), 107–136,
 DOI: [10.23933/jgrs.2021.60.2.107](https://doi.org/10.23933/jgrs.2021.60.2.107).

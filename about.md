@@ -9,7 +9,7 @@ permalink: /
 ---
 ![Me](/20141117_123012000_iOS.png)
 
-I am an incoming PhD student to the [Classical Studies Graduate Program](https://classicalstudies.columbia.edu/) at Columbia University.
+I am an incoming PhD student to the interdepartmental [Classical Studies Graduate Program](https://classicalstudies.columbia.edu/) (CLST) at Columbia University.
 <!-- My advisor is [Prof. Sung-Hoon Kang](https://humanities.snu.ac.kr/en/faculty?deptidx=13&md=view&profidx=157). -->
 
 My research focuses on ancient philosophy, especially Plato and Aristotle. I also have research interests in logic, epistemology, and metaphysics.
