@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cic. _de Fin._ 2.25"
+title:  "Cic. de Fin. 2.25"
 date:   2022-04-16 20:20:00 +0900
 categories: memoire
 ---
