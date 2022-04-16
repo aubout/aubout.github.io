@@ -64,7 +64,7 @@ exclude:
   - vendor/ruby/
   - "*.md.bak"
   - _posts/2021-07-15-welcome-to-jekyll.markdown
-  - discards/
+  - discarded/
   - node_modules/
   
 tipue_search:
