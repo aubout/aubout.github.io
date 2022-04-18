@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Arist. EN. 2–3"
+title:  "Arist. EN. 2.5, 1105b19–1106a12"
 date:   2022-04-18 14:56:00 +0900
 categories: memoire
 ---
