@@ -5,7 +5,9 @@ date:   2022-04-18 14:56:00 +0900
 categories: memoire
 ---
 >ἔτι δ᾽ εἰ αἱ ἀρεταί εἰσι περὶ πράξεις καὶ πάθη, [...] (Arist. *EN* 2.3, 1104b13--14).
+
 >ἡ δ᾽ ἀρετὴ περὶ πάθη καὶ πράξεις ἐστίν (Arist. *EN* 2.6, 1106b24--25).
+
 >Τῆς ἀρετῆς δὴ περὶ πάθη τε καὶ πράξεις οὔσης, [...] (Arist. *EN* 3.1, 1109b30).
 
 How are virtues related to emotions? Cf. the following passage:
