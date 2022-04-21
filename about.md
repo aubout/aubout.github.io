@@ -20,3 +20,5 @@ You can find my CV [here](cv.pdf). You can contact me by email: <wk2377@columbia
 
 <!-- Ps. "\[A\]ubout" refers to *Voyage au bout de la nuit* by Louis-Ferdinand Céline, a quote from which opens the film *La Grande Bellezza* by Paolo Sorrentino:
 >Voyager, c'est bien utile, ça fait travailler l'imagination. Tout le reste n'est que déception et fatigues. Notre voyage à nous est entièrement imaginaire. Voilà sa force. -->
+
+<!-- (Photo by Donghui Lee) -->
