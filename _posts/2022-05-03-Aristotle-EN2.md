@@ -14,4 +14,4 @@ Regarding mixing (ὁμιλία) with others, Aristotle says:
 τῷ καλῷ καὶ τῷ συμφέροντι. καὶ ἡδονῆς δ᾽ ἕνεκα τῆς
 εἰσαῦθις μεγάλης μικρὰ λυπήσει (Arist. *EN* 4.6, 1126b8--1127a6).
 
-Aristotle may have in mind a case in which those who have virtue in mixing with others give bitter advice to less virtuous ones. What then makes that virtuous one ($A_1$) different from a friendly one, or a friend ($A_2$)? For this virtuous disposition (ἕξις) appears to be most similar to that of friendship (Arist. *EN* 4.6, 1126b20). Answering it, we could say that $A_1$ will leave, if $B$ rejects her advice, while $A_2$ would be still with $B$, trying to persuade her. 
+Aristotle may have in mind a case in which those who have virtue in mixing with others give bitter advice to less virtuous ones. What then makes that virtuous one (\(A_1\)) different from a friendly one, or a friend (\(A_2\))? For this virtuous disposition (ἕξις) appears to be most similar to that of friendship (Arist. *EN* 4.6, 1126b20). Answering it, we could say that \(A_1\) will leave, if \(B\) rejects her advice, while \(A_2\) would be still with \(B\), trying to persuade her. 
