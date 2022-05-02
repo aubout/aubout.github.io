@@ -2,7 +2,7 @@
 layout: post
 title:  "Arist. EN. 2.5, 1105b19–1106a12"
 date:   2022-04-18 14:56:00 +0900
-categories: blog
+categories: Q
 ---
 >ἔτι δ᾽ εἰ αἱ ἀρεταί εἰσι περὶ πράξεις καὶ πάθη, [...] (Arist. *EN* 2.3, 1104b13--14).
 

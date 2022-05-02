@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Cic. de Fin. 2.37"
-date:   2022-04-30 20:00:00 +0900
-categories: blog
+date:   2022-05-05 20:00:00 +0900
+categories: Q
 ---
 >Aequam igitur pronuntiabit sententiam ratio, adhibita primum divinarum
 humanarumque rerum scientia, quae potest appellari

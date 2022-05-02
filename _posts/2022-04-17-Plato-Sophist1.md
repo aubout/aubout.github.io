@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Pl. Sph. 254d4–e1"
-date:   2022-05-01 20:20:00 +0900
-categories: blog
+date:   2022-05-05 20:20:00 +0900
+categories: Q
 ---
 
 >ΞΕ. Μέγιστα μὴν τῶν γενῶν ἅ νυνδὴ διῇμεν τό τε ὂν

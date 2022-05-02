@@ -2,7 +2,7 @@
 layout: post
 title:  "Cic. de Fin. 2.24–25"
 date:   2022-04-22 20:00:00 +0900
-categories: blog
+categories: Q
 ---
 
 >Ex quo illud efficitur, qui bene cenent omnis libenter cenare, qui libenter, non continuo bene. Semper Laelius bene (Cic. *de Fin.* 2.24--25).
