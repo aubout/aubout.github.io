@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Arist. EN 4.6, 1126b8–1127a6"
-date:   2022-05-03 09:00:00 +0900
+date:   2022-05-03 01:07:00 +0900
 categories: Q
 ---
 Regarding mixing (ὁμιλία) with others, Aristotle says:
