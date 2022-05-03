@@ -35,7 +35,7 @@ header_pages:
  - blog.html
 #  - teaching.md
 
-show_excerpts: true
+show_excerpts: false
 
 # Build settings
 theme: minima
