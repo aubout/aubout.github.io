@@ -36,6 +36,7 @@ header_pages:
 #  - teaching.md
 
 show_excerpts: false
+mathjax: true
 
 # Build settings
 theme: minima
