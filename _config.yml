@@ -31,8 +31,8 @@ philpeople_username: wooseok-kim
 header_pages: 
  - about.md
  - cv.md
- - research.md
- - blog.html
+#  - research.md
+#  - blog.html
 #  - teaching.md
 
 show_excerpts: false
