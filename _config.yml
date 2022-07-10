@@ -21,7 +21,7 @@
 title: Wooseok Kim
 email: wk2377@columbia.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  I am an incoming PhD student to the Classical Studies Graduate Program at Columbia University. I am studying ancient philosophy, especially Plato and Aristotle, also with secondary interests in logic, epistemology, and metaphysics.
+  I am an incoming PhD student in Classical Studies at Columbia University. I am studying ancient philosophy, especially Plato and Aristotle, also with secondary interests in logic, epistemology, and metaphysics.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wseok-kim.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
