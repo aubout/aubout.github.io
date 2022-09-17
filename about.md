@@ -9,7 +9,7 @@ permalink: /
 ---
 ![Me](/20141117_123012000_iOS.png)
 
-I am a PhD student in [Classical Studies](https://classicalstudies.columbia.edu/) (CLST) at Columbia University.
+I am a PhD student in Classical Studies ([CLST](https://classicalstudies.columbia.edu/)) at Columbia University.
 <!-- My advisor is [Prof. Sung-Hoon Kang](https://humanities.snu.ac.kr/en/faculty?deptidx=13&md=view&profidx=157). -->
 
 My research area is ancient philosophy, with special interests in Plato and Aristotle. I also have research interests in metaphysics, philosophy of language, logic, and mind.
