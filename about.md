@@ -9,10 +9,10 @@ permalink: /
 ---
 ![Me](/20141117_123012000_iOS.png)
 
-I am an incoming PhD student to the interdepartmental [Classical Studies Graduate Program](https://classicalstudies.columbia.edu/) (CLST) at Columbia University.
+I am a PhD student in [Classical Studies](https://classicalstudies.columbia.edu/) (CLST) at Columbia University.
 <!-- My advisor is [Prof. Sung-Hoon Kang](https://humanities.snu.ac.kr/en/faculty?deptidx=13&md=view&profidx=157). -->
 
-My research focuses on ancient philosophy, especially Plato and Aristotle. I also have research interests in logic, epistemology, and metaphysics.
+My research area is ancient philosophy, focusing on Plato and Aristotle. I also have interests in metaphysics, philosophy of language, logic, and mind.
 
 I hold a Bachelor's degree in Economics and Philosophy and a Master's degree in Western Philosophy, both degrees from Seoul National University. My Master's project was on the _Theaetetus_ of Plato, resulting in the thesis entitled "A Study on the Self-Refutation of Relativism in the _Theaetetus_ of Plato" (in Korean). I am now working on the _Timeus_ of Plato.
 
