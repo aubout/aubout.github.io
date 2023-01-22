@@ -9,7 +9,7 @@ permalink: /
 ---
 ![Me](/20141117_123012000_iOS.png)
 
-I am a PhD student in the Classical Studies Graduate Program ([CLST](https://classicalstudies.columbia.edu/)), which is a self-standing interdepartmental program and in which Departments of Art History and Archaeology, Classics, History, and Philosophy participate, at Columbia University.
+I am a PhD student in the Classical Studies Graduate Program ([CLST](https://classicalstudies.columbia.edu/)) at Columbia University, which is a self-standing interdepartmental program and in which Departments of Art History and Archaeology, Classics, History, and Philosophy participate.
 <!-- My advisor is [Prof. Sung-Hoon Kang](https://humanities.snu.ac.kr/en/faculty?deptidx=13&md=view&profidx=157). -->
 
 My research area is ancient philosophy, with special interests in Plato and Aristotle. I also have general research interests in philosophy and classical studies: for the former, especially in metaphysics and logic; for the latter, especially in textual criticism.
